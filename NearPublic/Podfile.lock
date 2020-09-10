@@ -1,0 +1,35 @@
+PODS:
+  - LGCyImageBrowser (2.0.7):
+    - SDWebImage
+  - MJRefresh (3.5.0)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - LGCyImageBrowser
+  - MJRefresh
+  - SDCycleScrollView
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LGCyImageBrowser
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  LGCyImageBrowser: 3d4dde57a87d24e5e849a24788a0b76f9f3ccecc
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 81c0ec5b9d921a30abd5bf9a831d95d33ec5bf3b
+
+COCOAPODS: 1.8.4

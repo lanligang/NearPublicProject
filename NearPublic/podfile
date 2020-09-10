@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target ‘NearPublic’ do
+    platform :ios, '9.0'
+
+	pod 'SnapKit'
+
+	pod 'MJRefresh'
+
+	pod 'SDCycleScrollView'
+
+	#图片浏览器 --  插件直接自动依赖 SDWebImage
+	pod 'LGCyImageBrowser'
+
+end

@@ -1,0 +1,6 @@
+module Pods_NearPublic {
+  umbrella header "Pods-NearPublic-umbrella.h"
+
+  export *
+  module * { export * }
+}
