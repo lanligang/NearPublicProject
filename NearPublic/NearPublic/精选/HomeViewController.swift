@@ -44,6 +44,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
 		tbv.separatorStyle = .none
 		tbv.backgroundColor = .hexInt(0xfafafa)
 		tbv.register(HomeFoodCell.self, forCellReuseIdentifier: "cell")
+		tbv.register(FoodPageTableViewCell.self, forCellReuseIdentifier: "pageCell")
 		return tbv
 	}()
 
@@ -104,6 +105,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
 		}
 		let tap = UITapGestureRecognizer(target: self, action: #selector(userImgOntap))
 		userImgV.addGestureRecognizer(tap)
+		view.addSubview(UIView(frame: CGRect(x: 0, y: 0, width: 20, height: screen_height)))
     }
 	func changeActionHeight(height:CGFloat) {
 		var rect = self.headerRefreshView.frame
@@ -164,9 +166,16 @@ extension HomeViewController {
 	}
 
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let headerCell =	tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-		headerCell.selectionStyle = .none
-		return headerCell
+		var tableViewCell:UITableViewCell?
+
+		if indexPath.row == 0 {
+			tableViewCell = tableView.dequeueReusableCell(withIdentifier: "pageCell", for: indexPath)
+		}else{
+			tableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+		}
+		tableViewCell?.selectionStyle = .none
+
+		return tableViewCell!
 	}
 
 	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

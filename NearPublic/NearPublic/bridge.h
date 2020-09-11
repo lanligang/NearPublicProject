@@ -17,4 +17,6 @@
 
 #import "MJRefresh.h"
 
+#import "CyImageBrowser.h"
+
 #endif /* bridge_h */

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1DF12F88D831D2BA633B2732 /* libPods-NearPublic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A7E08F02ECF7BDA7288194 /* libPods-NearPublic.a */; };
+		8F843417250B5A1000C24FCD /* FoodPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F843416250B5A1000C24FCD /* FoodPageTableViewCell.swift */; };
+		8F843419250B611200C24FCD /* PageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F843418250B611200C24FCD /* PageFlowLayout.swift */; };
 		8FD5F2472508674E00D15B64 /* PublicTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD5F2462508674E00D15B64 /* PublicTool.swift */; };
 		8FD5F2572509046300D15B64 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD5F2562509046300D15B64 /* DetailViewController.swift */; };
 		8FD5F25925090A9F00D15B64 /* HomeFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD5F25825090A9F00D15B64 /* HomeFoodCell.swift */; };
@@ -55,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		03315B9FE899F479AB035855 /* Pods-NearPublic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearPublic.release.xcconfig"; path = "Target Support Files/Pods-NearPublic/Pods-NearPublic.release.xcconfig"; sourceTree = "<group>"; };
+		8F843416250B5A1000C24FCD /* FoodPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPageTableViewCell.swift; sourceTree = "<group>"; };
+		8F843418250B611200C24FCD /* PageFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFlowLayout.swift; sourceTree = "<group>"; };
 		8FD5F2462508674E00D15B64 /* PublicTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTool.swift; sourceTree = "<group>"; };
 		8FD5F2562509046300D15B64 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8FD5F25825090A9F00D15B64 /* HomeFoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFoodCell.swift; sourceTree = "<group>"; };
@@ -270,6 +274,8 @@
 				8FD633662507951C0012C239 /* HomeTopHeaderView.swift */,
 				8FD633682507ADDA0012C239 /* HomeTableHeaderView.swift */,
 				8FD5F25825090A9F00D15B64 /* HomeFoodCell.swift */,
+				8F843416250B5A1000C24FCD /* FoodPageTableViewCell.swift */,
+				8F843418250B611200C24FCD /* PageFlowLayout.swift */,
 				8FD5F2522509041500D15B64 /* 详情 */,
 			);
 			path = "精选";
@@ -468,11 +474,13 @@
 			files = (
 				8FD63309250714DD0012C239 /* AppDelegate.swift in Sources */,
 				8FD6335F250774400012C239 /* EatViewController.swift in Sources */,
+				8F843419250B611200C24FCD /* PageFlowLayout.swift in Sources */,
 				8FD63348250727610012C239 /* MineHeaderCell.swift in Sources */,
 				8FD6334625071A0D0012C239 /* DeviceTool.swift in Sources */,
 				8FD633672507951C0012C239 /* HomeTopHeaderView.swift in Sources */,
 				8FD63352250769DA0012C239 /* RootNavigationController.swift in Sources */,
 				8FD5F2572509046300D15B64 /* DetailViewController.swift in Sources */,
+				8F843417250B5A1000C24FCD /* FoodPageTableViewCell.swift in Sources */,
 				8FD63361250774550012C239 /* HaveViewController.swift in Sources */,
 				8FD63343250716FF0012C239 /* RootTabBarController.swift in Sources */,
 				8FD6336525078EDC0012C239 /* BaseViewController.swift in Sources */,
