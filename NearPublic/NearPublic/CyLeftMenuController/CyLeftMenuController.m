@@ -281,6 +281,20 @@ andMainController:(id<CyMenuControllerProtocol>)main
 	}
 	return self;
 }
+#pragma mark - 不能转屏
+
+- (BOOL)shouldAutorotate {
+    return NO;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+	return UIInterfaceOrientationPortrait;
+}
 
 @end
 
