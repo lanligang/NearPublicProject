@@ -24,14 +24,12 @@ extension UIViewController : CyMenuControllerProtocol {
 ```
 * 如何从left 和 main 打开 可关闭
 ```
-……
 	func openCloseCallBack(_ callBack: @escaping (Bool) -> Void) {
 		openCallBack = callBack //可以执行回调协议
 	}
 
 	openCallBack?(true) //打开
 	openCallBack?(false)//关闭
-……
 
 ```
 
